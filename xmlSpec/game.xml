@@ -1,0 +1,139 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Avoid Bugs</title>
+<maxStringSize>50</maxStringSize>
+
+<hud>
+    <startLoc x="20" y="20"/>
+    <width>250</width>
+    <height>260</height>
+</hud>
+
+<hud1>
+    <startLoc x="600" y="20"/>
+    <width>250</width>
+    <height>120</height>
+</hud1>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>1500</maxFrames>
+<username>zwan</username>
+
+<frameMax>100</frameMax>
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>570</height>
+</world>
+
+<back>
+  <file>images/background.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+
+<sky>
+    <file>images/sky.png</file>
+    <factor>3</factor>
+    <transparency>false</transparency>
+</sky>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<zombie>
+  <file>images/zombie.png</file>
+  <bullet>raybeam</bullet>
+  <startLoc x="120" y="461.33"/>
+  <frameWidth>89.33</frameWidth>
+  <frameHeight>88.67</frameHeight>
+  <frames>3</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>300</speedX>
+  <speedY>700</speedY>
+  <gravity>1700.0</gravity>
+  <transparency>true</transparency>
+  <chunk>
+      <size>9</size>
+      <distance>200</distance>
+  </chunk>
+</zombie>
+
+<zombieLeft>
+    <file>images/zombieLeft.png</file>
+    <startLoc x="120" y="140"/>
+    <frameWidth>89.33</frameWidth>
+    <frameHeight>88.67</frameHeight>
+    <frames>3</frames>
+    <frameInterval>200</frameInterval>
+    <speedX>0</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+</zombieLeft>
+
+<enemy>
+    <file>images/enemy.png</file>
+    <startLoc x="858" y="269"/>
+    <frames>3</frames>
+    <frameInterval>20</frameInterval>
+    <speedX>-200</speedX>
+    <speedY>200</speedY>
+    <transparency>true</transparency>
+</enemy>
+
+<ufo>
+    <file>images/ufo.png</file>
+    <startLoc x="800" y="205"/>
+    <frames>3</frames>
+    <frameInterval>100</frameInterval>
+    <speedX>100</speedX>
+    <speedY>0</speedY>
+    <transparency>true</transparency>
+    <chunk>
+        <size>15</size>
+        <distance>500</distance>
+    </chunk>
+</ufo>
+
+<raybeam>
+    <file>images/bullet.png</file>
+    <interval>300</interval>
+    <distance>520</distance>
+    <startLoc x="100" y="100"/>
+    <speedX>250</speedX>
+    <speedY>0</speedY>
+    <strategy>rectangular</strategy>
+</raybeam>
+
+<sprite>
+  <file>images/yellowstar32.png</file>
+  <startLoc x="10" y="530"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <gravity>900.0</gravity>
+  <transparency>true</transparency>
+</sprite>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+</GameData>

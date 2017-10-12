@@ -1,0 +1,27 @@
+Name: Zicheng Wan
+
+Clemson Email Address: zwan@g.clemson.edu
+
+Project no: final
+
+Project due date: May 2, 2017
+
+Project description: 
+The aliens invaded earth, and keep leasing bugs to attack you, your role is a cute zombie, you should avoid those bugs and shoot the ufo to destroy it. The ufo would keeping tracking you and following you.
+controls:
+left                       :[<-]
+right                      :[->]
+jump(you could double jump):[space]
+shoot                      :[s]
+godmode                    :[g]
+restart                    :[r]
+HUD                        :[f1]
+capture frames             :[f4]
+
+
+The easiest part of this project: Testing(which is playing).
+
+Problems that I had in completing this project: The fps is pretty low when I run this game in lab computers.
+
+Picture source: http://www.2gei.com/view/27004.html
+		http://www.2gei.com/view/9363.html?order=last&page=2
